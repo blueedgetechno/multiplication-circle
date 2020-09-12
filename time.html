@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="time.css">
+  <title>Times table</title>
+</head>
+
+<body>
+  <div class="container">
+    <canvas id="display" width="1200" height="714">
+    </canvas>
+    <div class="inputs">
+      <div class="play" onclick="play()"></div>
+      <div class="slider">
+        <label>Multiplier : 2</label>
+        <input type="range" min="2" max="99" value="2" onchange="callme()" class="slider" id="multiplier">
+      </div>
+      <div class="slider">
+        <label>Base : 200</label>
+        <input type="range" min="10" max="200" value="200" onchange="callme()" class="slider" id="base">
+      </div>
+    </div>
+  </div>
+  <script src="time.js"></script>
+</body>
+
+</html>
