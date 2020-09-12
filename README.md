@@ -1,4 +1,4 @@
-# multiplication-circle
+# Multiplication circle
 
 This is a very beautiful representation of Multiplication circle.
 
